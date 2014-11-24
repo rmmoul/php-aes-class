@@ -1,11 +1,7 @@
 <?php
 	
 	/*
-		$key = 'your key';
-		$iv = 'your 16 byte iv';
-		$crypt = new Encryption($key, $iv);
-		$encrypted_string = $crypt->encrypt('this is a test');
-		$decrypted_string = $crypt->decrypt($encrypted_string);
+		Version: 1.0
 	*/
 	class aes_encryption{
 		
