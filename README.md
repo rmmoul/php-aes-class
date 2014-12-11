@@ -19,8 +19,8 @@ Text encryption is easy, and can be accomplished with a user provided key and iv
     // for testing purposes. 
     
     // $passphrase = 'ThisIsMyPassphrase';
-	  // $iv = substr(md5('YourIV'.$passphrase, true), 0, 16);
-	  // $key = md5($passphrase, true);
+    // $iv = substr(md5('YourIV'.$passphrase, true), 0, 16);
+    // $key = md5($passphrase, true);
 	  
     // You would pass the below when initializing the class like:
     // $crypt = new aes_encryption($key, $iv);
