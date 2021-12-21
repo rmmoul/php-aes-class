@@ -3,7 +3,7 @@ php-aes-class
 
 A PHP class to handle aes text and file encryption.
 
-I wasn't able to find a satisfacty write up or class for handling both text and file encryption/decryption using aes, so I wrote my own. 
+I wasn't able to find a satisfactory write up or class for handling both text and file encryption/decryption using aes, so I wrote my own. 
 
 Text encryption is easy, and can be accomplished with a user provided key and iv, or by creating random ones. Be sure to save the random ones somewhere, as neither are saved by default (the iv is not added to the ciphertext).
 
